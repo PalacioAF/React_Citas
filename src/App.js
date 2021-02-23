@@ -4,6 +4,7 @@ import Cita from './components/Cita';
 
 function App() {
 
+  //Administrador de Citas
   // Citas en local storage
   let citasIniciales = JSON.parse(localStorage.getItem('citas'));
   if(!citasIniciales) {
